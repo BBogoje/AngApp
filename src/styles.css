@@ -11,3 +11,188 @@
     overflow: hidden;
     height: 0px;
   }
+#location{
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 3em;
+    margin-top: -0.7em;
+}
+#locationtd p{
+    text-align: left;
+    margin-top: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-bottom: 3em;
+}
+.slide{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#table{
+  border-collapse: separate;
+  border-spacing: 1em;
+  margin-left: 13em;
+}
+#table td{
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+  border: 1px solid coral;
+  border-radius: 1%;
+  width: 33%;
+  padding-bottom: 3%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  vertical-align: top;
+  margin-right: 50%;
+  background-color: rgba(32, 32, 32, 0.5);
+}
+#table tr td h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: -.3em;
+  color: coral;
+}
+
+#footer{
+  height: 20em;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+.footertext1{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: .7em;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+.footertext2{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: .1em;
+  color: coral;
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+/*HOARAH SLIDE*/
+.text-hoarah{
+  position: absolute;
+  color: white;
+  margin-left: -58.8%;
+  padding-left: 2em;
+  padding-right: 1em;
+}
+.text-hoarah h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+#hoarah-title{
+  background-color: coral;
+}
+#hoarah-desc{
+  margin-top: 13em;
+  width: 48em;
+}
+
+/*GOLDMASK SLIDE*/
+.text-goldmask{
+  position: absolute;
+  color: white;
+  margin-top: -25%;
+  margin-left: -61.8%;
+  padding-left: 11em;
+  padding-right: 1em;
+}
+.text-goldmask h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+#goldmask-title{
+  background-color: coral;
+}
+#goldmask-desc{
+  padding-top: 14em;
+  width: 48em;
+}
+
+/*FIA SLIDE*/
+.text-fia{
+  position: absolute;
+  color: white;
+  margin-top: -42%;
+  margin-left: 63%;
+  padding-left: 1em;
+  padding-right: 10em;
+  width: 37%;
+}
+.text-fia h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+#fia-title{
+  background-color: coral;
+}
+#fia-desc{
+  margin-top: -55em;
+  width: 48em;
+}
+
+/*DUNG SLIDE*/
+.text-dung{
+  position: absolute;
+  color: white;
+  margin-top: -47%;
+  margin-left: -65%;
+  padding-left: 10em;
+  padding-right: 1em;
+}
+.text-dung h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+#dung-title{
+  background-color: coral;
+}
+#dung-desc{
+  margin-top: -45em;
+  margin-left: -85em;
+  width: 48em;
+}
+
+/*GIDEON SLIDE*/
+.text-gideon{
+  position: absolute;
+  color: white;
+  margin-top: -53%;
+  margin-left: 63%;
+  margin-right: 26%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+  width: 34.2%;
+}
+.text-gideon h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+#gideon-title{
+  background-color: coral;
+}
+#gideon-desc{
+  margin-top: -52em;
+  width: 34.2%;
+}
