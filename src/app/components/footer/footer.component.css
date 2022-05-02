@@ -1,0 +1,24 @@
+#footer{
+    height: 20em;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+  }
+  .footertext1{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: .7em;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+  }
+  .footertext2{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: .1em;
+    color: coral;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+  }

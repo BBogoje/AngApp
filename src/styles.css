@@ -1,11 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
-#header-logo{
-    background: url(https://preview.redd.it/3e2afpjsi4f61.png?auto=webp&s=873c71479848a3164d1804a0736ea721ca78aad1) no-repeat center center;
-    background-size: cover;
-    width: 150px;
-  }
-#color-change{
-    color: coral;
+*{
+  font-family: sans-serif;
 }
 .owl-carousel .owl-nav{
     overflow: hidden;
@@ -32,55 +26,12 @@
   justify-content: center;
   align-items: center;
 }
-#table{
-  border-collapse: separate;
-  border-spacing: 1em;
-  margin-left: 13em;
-}
-#table td{
-  text-align: justify;
-  font-size: 20px;
-  color: white;
-  border: 1px solid coral;
-  border-radius: 1%;
-  width: 33%;
-  padding-bottom: 3%;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
-  vertical-align: top;
-  margin-right: 50%;
-  background-color: rgba(32, 32, 32, 0.5);
-}
-#table tr td h1{
-  font-size: 20px;
+h2{
   font-weight: bold;
-  margin-bottom: -.3em;
-  color: coral;
+  font-size: 2em;
 }
-
-#footer{
-  height: 20em;
-  background-size: cover;
-  background-repeat: repeat-y;
-  background-position: center;
-}
-.footertext1{
-  font-family: sans-serif;
-  text-align: center;
-  padding-top: .7em;
-  color: white;
-  font-size: 4em;
-  font-weight: bold;
-  text-shadow: 2px 2px black;
-}
-.footertext2{
-  font-family: sans-serif;
-  text-align: center;
-  padding-top: .1em;
-  color: coral;
-  font-size: 4em;
-  font-weight: bold;
-  text-shadow: 2px 2px black;
+#character-title{
+  background-color: coral;
 }
 
 /*HOARAH SLIDE*/
@@ -90,14 +41,6 @@
   margin-left: -58.8%;
   padding-left: 2em;
   padding-right: 1em;
-}
-.text-hoarah h2{
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 2em;
-}
-#hoarah-title{
-  background-color: coral;
 }
 #hoarah-desc{
   margin-top: 13em;
@@ -112,14 +55,6 @@
   margin-left: -61.8%;
   padding-left: 11em;
   padding-right: 1em;
-}
-.text-goldmask h2{
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 2em;
-}
-#goldmask-title{
-  background-color: coral;
 }
 #goldmask-desc{
   padding-top: 14em;
@@ -136,14 +71,6 @@
   padding-right: 10em;
   width: 37%;
 }
-.text-fia h2{
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 2em;
-}
-#fia-title{
-  background-color: coral;
-}
 #fia-desc{
   margin-top: -55em;
   width: 48em;
@@ -157,14 +84,6 @@
   margin-left: -65%;
   padding-left: 10em;
   padding-right: 1em;
-}
-.text-dung h2{
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 2em;
-}
-#dung-title{
-  background-color: coral;
 }
 #dung-desc{
   margin-top: -45em;
@@ -183,14 +102,6 @@
   padding-right: 1em;
   padding-top: 2em;
   width: 34.2%;
-}
-.text-gideon h2{
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 2em;
-}
-#gideon-title{
-  background-color: coral;
 }
 #gideon-desc{
   margin-top: -52em;
