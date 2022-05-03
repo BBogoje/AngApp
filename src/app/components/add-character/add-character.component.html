@@ -1,0 +1,17 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="container">
+        <label for="title">Title :</label>
+        <input type="text" name="title" [(ngModel)]="title" id="title" placeholder="Title...">
+    </div>
+    <div class="container">
+        <label for="desc">Description :</label>
+        <input type="text" name="desc" [(ngModel)]="desc" id="desc" placeholder="Description...">
+    </div>
+    <div class="container">
+        <label for="status">Alive?</label>
+        <input type="checkbox" name="status" [(ngModel)]="status" id="status">
+    </div>
+    <div class="contain" style="align-self: center;">
+        <input type="submit" value="Save Character" class="button">
+    </div>
+</form>

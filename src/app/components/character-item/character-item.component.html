@@ -1,0 +1,21 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th [ngClass] ="{ id: character.status }">{{ character.id }}</th>
+            <th><h3>{{ character.title }}</h3></th>
+            <th><p>{{ character.desc }}</p></th>
+            <th>
+                <fa-icon (click) = "onDelete(character)" [ngStyle]="{ color: 'coral'}" [icon]="faTimes"></fa-icon>
+                <fa-icon (click)="onToggle(character)" [ngStyle]="{ color: 'coral'}" [icon]="faExchange"></fa-icon>
+            </th>
+        </tr>
+    </tbody>
+</table>

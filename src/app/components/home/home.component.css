@@ -1,0 +1,91 @@
+.owl-carousel .owl-nav{
+    overflow: hidden;
+    height: 0px;
+  }
+.slide{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  font-weight: bold;
+  font-size: 2em;
+}
+#character-title{
+  background-color: coral;
+}
+
+/*HOARAH SLIDE*/
+.text-hoarah{
+  position: absolute;
+  color: white;
+  margin-left: -58.8%;
+  padding-left: 2em;
+  padding-right: 1em;
+}
+#hoarah-desc{
+  margin-top: 13em;
+  width: 48em;
+}
+
+/*GOLDMASK SLIDE*/
+.text-goldmask{
+  position: absolute;
+  color: white;
+  margin-top: -25%;
+  margin-left: -61.8%;
+  padding-left: 11em;
+  padding-right: 1em;
+}
+#goldmask-desc{
+  padding-top: 14em;
+  width: 48em;
+}
+
+/*FIA SLIDE*/
+.text-fia{
+  position: absolute;
+  color: white;
+  margin-top: -42%;
+  margin-left: 63%;
+  padding-left: 1em;
+  padding-right: 10em;
+  width: 37%;
+}
+#fia-desc{
+  margin-top: -55em;
+  width: 48em;
+}
+
+/*DUNG SLIDE*/
+.text-dung{
+  position: absolute;
+  color: white;
+  margin-top: -47%;
+  margin-left: -65%;
+  padding-left: 10em;
+  padding-right: 1em;
+}
+#dung-desc{
+  margin-top: -45em;
+  margin-left: -85em;
+  width: 48em;
+}
+
+/*GIDEON SLIDE*/
+.text-gideon{
+  position: absolute;
+  color: white;
+  margin-top: -53%;
+  margin-left: 63%;
+  margin-right: 26%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+  width: 34.2%;
+}
+#gideon-desc{
+  margin-top: -52em;
+  width: 34.2%;
+}
